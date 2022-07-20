@@ -12,6 +12,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    min-width: 400px;
     
 
 }
@@ -31,10 +32,14 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 7vw;
+    font-size: 6vw;
+    font-weight: 100;
+    min-width: 400px;
 }
 header > p {
     padding-bottom: 50px;
+    font-size: 10px;
+
 }
 
 a{
@@ -53,7 +58,8 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    font-size: 3vw;
+    font-size: 3vh;
+    min-width: 400px;
 }
 section> p{
     padding-bottom: 2em;
@@ -65,12 +71,13 @@ section.normal{
 
 section.imagem{
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     background-color: #3b3838;
     color: white;
     box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.532);
     transform: translate(-50px 50px);
+    min-width: 400px;
 
 }
 section.imagem > p{
@@ -84,4 +91,5 @@ footer{
     background-color: black;
     text-align: center;
     padding: 5px;
+    font-size: 10px;
 }
