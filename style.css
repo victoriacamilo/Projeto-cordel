@@ -70,6 +70,7 @@ section.imagem{
     background-color: #3b3838;
     color: white;
     box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.532);
+    transform: translate(-50px 50px);
 
 }
 section.imagem > p{
