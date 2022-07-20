@@ -32,13 +32,13 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 6vw;
+    font-size: 60px;
     font-weight: 100;
     min-width: 400px;
 }
 header > p {
     padding-bottom: 50px;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
